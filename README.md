@@ -1,0 +1,1 @@
+Need to call this function before calling any functions of contract.

@@ -1,0 +1,12 @@
+[programs.localnet]
+token_lock = "5YFYMJ6zQyNzWDxXyDtA2nfJrPXnQRUaWkVyuAYencLw"
+
+[registry]
+url ="http://127.0.0.1:8899"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -t 1000000 tests/**/*.ts"
